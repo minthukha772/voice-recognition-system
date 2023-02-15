@@ -1,0 +1,16 @@
+java.lang.RuntimeException: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 1 column 16815 path $.results[2][4].での水曜日ササイズ別彼は医者に見せしにつねならの身なりという貧血の差が何故9月か心柄でありけんが頭よりは休むことのあまりに久し切れば席を覗きに問いを越せずまだ1月ばかり などに書くきびしきは言えあればなるべく旅立ちのことにはいたく心を悩ますとも見えず偽りなき我が心を熱く信じたレバー鉄路にては多くもあらぬ旅なれば良いとてもなしに合わせて刈り取る黒木礼服新たに買い求めタルゴた版の予定の貴族風に三種の辞書などを鞄に入れてあるのにさすがにココロボ好きことの三大奇このほどなればいで後に残らん桃農家るべくまた停車場にて涙こぼしなどした卵には後ろめた軽部ければとて翌朝早くエリス祖母母につけてる人がリラシア率
+        at com.bliss_stock.aiServerAPI.webhook.Webhook.createMessageDiarization(Webhook.java:72)
+        at com.bliss_stock.aiServerAPI.webhook.WebhookRunnable.sendGcpWebhook(WebhookRunnable.java:127)
+        at com.bliss_stock.aiServerAPI.webhook.WebhookRunnable.run(WebhookRunnable.java:292)
+        at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 1 column 16815 path $.results[2][4].での水曜日ササイズ別彼は医者に見せしにつねならの身なりという貧血の差が何故9月か心柄でありけんが頭よりは休むことのあまりに久し切れば席を覗きに問いを越せずまだ1月ばかりなどに書くきびしきは言えあればなるべく旅立ちのことにはいたく心を悩ますとも見えず偽りなき我が心を熱く信じたレバー鉄路にては多くもあらぬ旅なれば良いとてもなしに合わせて刈り取る黒木礼服新たに買い求めタルゴた版の予定の貴族風に三種の辞書などを鞄に入れてあるのにさすがにココロボ好きことの三大奇このほどなればいで後に残らん桃農家るべくまた停車場にて涙こぼしなどした卵には後ろめた軽部ければとて翌朝早くエリス祖母母につけてる人がリラシア率
+        at com.google.gson.internal.Streams.parse(Streams.java:60)
+        at com.google.gson.JsonParser.parseReader(JsonParser.java:85)
+        at com.google.gson.JsonParser.parseReader(JsonParser.java:60)
+        at com.google.gson.JsonParser.parseString(JsonParser.java:47)
+        at com.google.gson.JsonParser.parse(JsonParser.java:98)
+        at com.svix.Message.getPayload(Message.java:57)
+        at com.svix.Message.create(Message.java:40)
+        at com.svix.Message.create(Message.java:35)
+        at com.bliss_stock.aiServerAPI.webhook.Webhook.createMessageDiarization(Webhook.java:55)
+        ... 3 more

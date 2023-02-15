@@ -1,0 +1,2 @@
+change "****" with the actual access keys
+change "USER" with the name of the user (line 36 of terminate-SSM.json)
